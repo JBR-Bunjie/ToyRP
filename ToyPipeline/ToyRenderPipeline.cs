@@ -62,7 +62,8 @@ namespace ToyRP.ToyPipeline {
             cmd.SetGlobalMatrix("_vpMatrix", vpMatrix);
             cmd.SetGlobalMatrix("_vpMatrixInv", vpMatrixInv);
             
-            cmd.ClearRenderTarget(true, true, Color.blue);
+            // cmd.ClearRenderTarget(true, true, Color.blue);
+            cmd.ClearRenderTarget(true, true, new Color(0.32f, 0.32f, 0.32f, 1f));
             context.ExecuteCommandBuffer(cmd);
 
             // 剔除
@@ -87,6 +88,7 @@ namespace ToyRP.ToyPipeline {
                 context.DrawGizmos(camera, GizmoSubset.PostImageEffects);
             }
             
+            context.DrawSkybox(camera);
             
             // 最终提交绘制
             context.Submit();

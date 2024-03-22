@@ -1,6 +1,6 @@
 {
   "name": "com.jbrbunjie.toyrp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "ToyRP",
   "description": "Different and Efficient, Great Brand New RP",
   "unity": "2022.3",
@@ -9,12 +9,11 @@
     "email": "JBR_Bunjie@outlook.com",
     "url": "https://github.com/JBR-Bunjie/ToyRP"
   },
-  "type": "RP",
   "samples": [
     {
       "displayName": "Demo Scenes",
       "description": "Test Scenes",
-      "path": "Samples/Scene"
+      "path": "Samples/ToyRPSampleScene"
     }
   ]
 }

@@ -9,6 +9,7 @@ namespace ToyRP.ToyPipeline
         protected override RenderPipeline CreatePipeline()
         {
             return new ToyRenderPipeline();
+            
         }
     }
 }
