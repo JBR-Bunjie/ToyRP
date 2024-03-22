@@ -1,5 +1,13 @@
 # ToySRP
 
+## Installation
+
+You can add this package into your project through `Package Manager - Add Package From Git URL` And Enter:
+
+```url
+https://github.com/JBR-Bunjie/ToyRP.git
+```
+
 ## Outline
 
 ### Dependencies

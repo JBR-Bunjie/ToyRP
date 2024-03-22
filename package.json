@@ -1,6 +1,6 @@
 {
   "name": "com.jbrbunjie.toyrp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "ToyRP",
   "description": "Different and Efficient, Great Brand New RP",
   "unity": "2022.3",
@@ -12,8 +12,8 @@
   "samples": [
     {
       "displayName": "Demo Scenes",
-      "description": "Test Scenes",
-      "path": "Samples/ToyRPSampleScene"
+      "description": "Demo Scenes",
+      "path": "Samples/Scenes/ToyRPSampleScene"
     }
   ]
 }
